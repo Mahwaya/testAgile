@@ -1,0 +1,65 @@
+{
+    "categories": ["Starters", "Main", "Desserts"],
+    "products": [
+      {
+        "id": "bruschetta",
+        "name": "Bruschetta",
+        "category": "Starters",
+        "price": 25,
+        "calories": 150,
+        "description": "Toasted bread with tomato, basil, garlic and olive oil.",
+        "ingredients": "Tomato, basil, garlic, olive oil, baguette",
+        "image": "images/bruschetta.jpg"
+      },
+      {
+        "id": "soup-of-the-day",
+        "name": "Soup of the Day",
+        "category": "Starters",
+        "price": 18,
+        "calories": 220,
+        "description": "Chef selected seasonal soup served with bread.",
+        "ingredients": "Varies daily",
+        "image": "images/soup.jpg"
+      },
+      {
+        "id": "grilled-salmon",
+        "name": "Grilled Salmon",
+        "category": "Main",
+        "price": 65,
+        "calories": 450,
+        "description": "Delicate grilled salmon served with fresh herbs.",
+        "ingredients": "Salmon, herbs, lemon, butter",
+        "image": "images/grilled-salmon.jpg"
+      },
+      {
+        "id": "pasta-alfredo",
+        "name": "Pasta Alfredo",
+        "category": "Main",
+        "price": 45,
+        "calories": 520,
+        "description": "Creamy Alfredo pasta with parmesan cheese.",
+        "ingredients": "Pasta, cream, parmesan, butter",
+        "image": "images/pasta-alfredo.jpg"
+      },
+      {
+        "id": "chocolate-cake",
+        "name": "Chocolate Cake",
+        "category": "Desserts",
+        "price": 30,
+        "calories": 320,
+        "description": "Rich chocolate cake with a soft center.",
+        "ingredients": "Chocolate, flour, sugar, eggs, butter",
+        "image": "images/chocolate-cake.jpg"
+      },
+      {
+        "id": "cheesecake",
+        "name": "Cheesecake",
+        "category": "Desserts",
+        "price": 32,
+        "calories": 340,
+        "description": "Classic baked cheesecake with a biscuit base.",
+        "ingredients": "Cream cheese, sugar, eggs, biscuit base",
+        "image": "images/cheesecake.jpg"
+      }
+    ]
+  }  

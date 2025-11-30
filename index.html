@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu Web APP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Restaurant Menu Web APP</h1>
+  </header>
+
+  <main id="app">
+    <section id="hero">
+      <h2>Menu</h2>
+      <p>Select a category to view dishes.</p>
+    </section>
+
+    <section id="categories">
+      <div class="category-buttons" id="category-buttons">
+        <!-- JS will replace these with real buttons after data loads -->
+        <button class="category-btn" data-category="Starters">
+          <span class="icon">🍽</span>
+          <span>Starters</span>
+        </button>
+        <button class="category-btn" data-category="Main">
+          <span class="icon">🥘</span>
+          <span>Main</span>
+        </button>
+        <button class="category-btn" data-category="Desserts">
+          <span class="icon">🍰</span>
+          <span>Desserts</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="product-list-section">
+      <h3>Products</h3>
+      <div id="product-list" class="product-grid">
+        <p>Select a category to view dishes.</p>
+      </div>
+    </section>
+
+    <section id="product-detail-section" hidden>
+      <button id="back-to-list">Back</button>
+      <div id="product-detail"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Team WSB. Agile SPA project</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
