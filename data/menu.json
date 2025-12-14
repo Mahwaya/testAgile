@@ -1,65 +1,282 @@
-{
-    "categories": ["Starters", "Main", "Desserts"],
-    "products": [
-      {
-        "id": "bruschetta",
-        "name": "Bruschetta",
-        "category": "Starters",
-        "price": 25,
-        "calories": 150,
-        "description": "Toasted bread with tomato, basil, garlic and olive oil.",
-        "ingredients": "Tomato, basil, garlic, olive oil, baguette",
-        "image": "images/bruschetta.jpg"
-      },
-      {
-        "id": "soup-of-the-day",
-        "name": "Soup of the Day",
-        "category": "Starters",
-        "price": 18,
-        "calories": 220,
-        "description": "Chef selected seasonal soup served with bread.",
-        "ingredients": "Varies daily",
-        "image": "images/soup.jpg"
-      },
-      {
-        "id": "grilled-salmon",
-        "name": "Grilled Salmon",
-        "category": "Main",
-        "price": 65,
-        "calories": 450,
-        "description": "Delicate grilled salmon served with fresh herbs.",
-        "ingredients": "Salmon, herbs, lemon, butter",
-        "image": "images/grilled-salmon.jpg"
-      },
-      {
-        "id": "pasta-alfredo",
-        "name": "Pasta Alfredo",
-        "category": "Main",
-        "price": 45,
-        "calories": 520,
-        "description": "Creamy Alfredo pasta with parmesan cheese.",
-        "ingredients": "Pasta, cream, parmesan, butter",
-        "image": "images/pasta-alfredo.jpg"
-      },
-      {
-        "id": "chocolate-cake",
-        "name": "Chocolate Cake",
-        "category": "Desserts",
-        "price": 30,
-        "calories": 320,
-        "description": "Rich chocolate cake with a soft center.",
-        "ingredients": "Chocolate, flour, sugar, eggs, butter",
-        "image": "images/chocolate-cake.jpg"
-      },
-      {
-        "id": "cheesecake",
-        "name": "Cheesecake",
-        "category": "Desserts",
-        "price": 32,
-        "calories": 340,
-        "description": "Classic baked cheesecake with a biscuit base.",
-        "ingredients": "Cream cheese, sugar, eggs, biscuit base",
-        "image": "images/cheesecake.jpg"
-      }
-    ]
-  }  
+[
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Spring Rolls",
+        "Ingredients":"['Rice paper', 'Vegetables', 'Noodles', 'Sauce']",
+        "Price (PLN)":6.98,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Baked Zucchini Fries",
+        "Ingredients":"['Zucchini', 'Breadcrumbs', 'Parmesan', 'Herbs']",
+        "Price (PLN)":7.32,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Crab Cakes",
+        "Ingredients":"['Crab meat', 'Breadcrumbs', 'Herbs', 'Egg']",
+        "Price (PLN)":11.14,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Roasted Beet Salad",
+        "Ingredients":"['Beets', 'Goat cheese', 'Walnuts', 'Arugula']",
+        "Price (PLN)":8.42,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Garlic Bread",
+        "Ingredients":"['Baguette', 'Garlic', 'Butter', 'Parsley']",
+        "Price (PLN)":7.11,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Spinach Artichoke Dip",
+        "Ingredients":"['Spinach', 'Tomatoes', 'Basil', 'Garlic', 'Olive Oil']",
+        "Price (PLN)":11.12,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Stuffed Mushrooms",
+        "Ingredients":"['Whole mushrooms','Fresh parsley' 'Cream cheese', 'Olive Oil']",
+        "Price (PLN)":12.28,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Bruschetta",
+        "Ingredients":"['Tomatoes', 'Basil', 'Toasted bread slices, 'Olive Oil']",
+        "Price (PLN)":13.62,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Stuffed Mushrooms",
+        "Ingredients":"['Large mushrooms', 'Cream cheese', 'Fresh parsley', 'Parmesan cheese']",
+        "Price (PLN)":11.56,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Appetizer",
+        "MenuItem":"Caprese Salad",
+        "Ingredients":"['Tomatoes', 'Basil', 'Salt', 'Black pepper', 'mozzarella', 'Olive Oil']",
+        "Price (PLN)":14.47,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Cappuccino",
+        "Ingredients":"['Espresso', 'Steamed milk', 'Milk foam']",
+        "Price (PLN)":5.59,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Latte",
+        "Ingredients":"['Espresso', 'Milk', 'Milk foam']",
+        "Price (PLN)":5.54,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Vanilla Frappe",
+        "Ingredients":"['Milk', 'Ice', 'Vanilla', 'Sugar']",
+        "Price (PLN)":6.66,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Smoothie",
+        "Ingredients":"['Mixed fruits', 'Yogurt', 'Honey'] ",
+        "Price (PLN)":7.87,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Hot Chocolate",
+        "Ingredients":"['Cocoa powder', 'Milk', 'Sugar']",
+        "Price (PLN)":6.55,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Strawberry Banana Smoothie",
+        "Ingredients":"['Strawberries', 'Banana', 'Yogurt', 'Honey', 'Ice']",
+        "Price (PLN)":8.55,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Soda",
+        "Ingredients":"['Carbonated water', 'Sugar', 'Flavors', 'Caramel color', 'Preservatives']",
+        "Price (PLN)":4.87,
+        "Profitability":"Low"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Lemonade",
+        "Ingredients":"['Lemon slice', 'Water', 'Sugar', 'Ice']",
+        "Price (PLN)":4.95,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Iced Tea",
+        "Ingredients":"['Brewed black tea', 'Water', 'Sugar', 'Ice']",
+        "Price (PLN)":4.43,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Beverage",
+        "MenuItem":"Coffee",
+        "Ingredients":"['Brewed coffee', 'Water', 'Roasted coffee beans']",
+        "Price (PLN)":4.94,
+        "Profitability":"Low"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"New York Cheesecake",
+        "Ingredients":"['Cream cheese', 'Butter', 'Heavy cream', 'Vanilla extract', 'Sugar', 'Eggs']",
+        "Price (PLN)":18.66,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Tiramisu",
+        "Ingredients":"['Mascarpone cheese', 'Ladyfinger biscuits', 'Cocoa powder', 'Sugar', 'Eggs']",
+        "Price (PLN)":10.47,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Chocolate Lava Cake",
+        "Ingredients":"['Dark chocolate', 'Flour', 'Butter', 'Sugar', 'Eggs']",
+        "Price (PLN)":16.08,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Fruit Tart",
+        "Ingredients":"['Fruits', 'Butter', 'Sugar', 'Eggs', 'Cream, 'Cornstarch', 'Vanilla', 'Flour', water']",
+        "Price (PLN)":12.38,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Cheesecake",
+        "Ingredients":"['Cream cheese', 'Sugar', 'Eggs', 'Graham cracker crust']",
+        "Price (PLN)":12.56,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Brownies",
+        "Ingredients":"['Chocolate', 'Flour', 'Sugar', 'Eggs', 'Butter']",
+        "Price (PLN)":8.98,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Macarons",
+        "Ingredients":"['Almond flour', 'Sugar', 'Egg whites', 'Filling'] ",
+        "Price (PLN)":11.76,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Strawberry Shortcake",
+        "Ingredients":"['Strawberries', 'Biscuit', 'Whipped cream']",
+        "Price (PLN)":10.73,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Apple Pie",
+        "Ingredients":"['Apples', 'Flour', 'Sugar', 'Butter', 'Cinnamon']",
+        "Price (PLN)":10.54,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Desserts",
+        "MenuItem":"Ice Cream Sundae",
+        "Ingredients":"['Ice cream', 'Chocolate sauce', 'whipped cream', 'Nuts']",
+        "Price (PLN)":9.99,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Chicken Alfredo",
+        "Ingredients":"['Chicken', 'Fettuccine', 'Alfredo Sauce', 'Parmesan']",
+        "Price (PLN)":29.55,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Grilled Steak",
+        "Ingredients":"['Beef steak', 'Salt', 'Black pepper', 'Olive oil','Garlic','Fresh herbs']",
+        "Price (PLN)":17.73,
+        "Profitability":"Medium"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Vegetable Stir-Fry",
+        "Ingredients":"['Mixed vegetables', 'Bell peppers', 'Soy sauce', 'Vegetable oil', 'Parmesan']",
+        "Price (PLN)":23.01,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Shrimp Scampi",
+        "Ingredients":"['Shrimp', 'Butter', 'Olive oil', 'Chicken broth', 'Lemon juice', 'Parsley']",
+        "Price (PLN)":27.14,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Grilled Chicken",
+        "Ingredients":"['Chicken', 'Olive oil', 'Herbs', 'Spices']",
+        "Price (PLN)":15.45,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Spaghetti Bolognese",
+        "Ingredients":"['Pasta', 'Beef', 'Tomato sauce', 'Herbs']",
+        "Price (PLN)":14.55,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Grilled Salmon",
+        "Ingredients":"['Salmon', 'Lemon', 'Olive oil', 'Herbs']",
+        "Price (PLN)":18.11,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Margherita Pizza",
+        "Ingredients":"['Pizza dough', 'Tomato', 'Mozzarella', 'Basil']",
+        "Price (PLN)":13.76,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Lamb Chops",
+        "Ingredients":"['Lamb', 'Garlic', 'Rosemary', 'Olive oil']",
+        "Price (PLN)":22.54,
+        "Profitability":"High"
+    },
+    {
+        "MenuCategory":"Main Course",
+        "MenuItem":"Seafood Paella",
+        "Ingredients":"['Rice', 'Shrimp', 'Mussels', 'Saffron', 'Vegetables']",
+        "Price (PLN)":22.65,
+        "Profitability":"High"
+    }
+]
